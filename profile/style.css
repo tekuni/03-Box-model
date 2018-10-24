@@ -4,14 +4,17 @@ background-color: rgb(#6bd5e1);
 color: rgb(20,20,20);
 font-size: 20px;
 font-family: Arial;
+/*margin: auto;*/
+/*max-width: 800px;*/
 }
 
 h1 {
-font-family: Courier;
+font-family: Lora, serif;
 font-size: 40px;
 font-weight: lighter;
 
 }
+
 h2 {
   font-family: Courier;
   color: blue;
@@ -39,11 +42,29 @@ text-decoration: none;
 color: purple;
 }
 
+img {
+    image-orientation: from-image;
+}
+
+.turn{
+  transform: rotate(90deg);
+}
+
+/*.btn btn-danger {
+  text-align: ; center;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 100px;
+}*/
+
 #face {
   width: 300px;
   border-radius: 50%;
   height: 400px;
-}
+  text-align; center;
+  padding: 10px 0;
+  }
 
 /*Custom style*/
 
@@ -53,8 +74,6 @@ color: purple;
   text-align; center;
   text-shadow: 1px 1px 1px black;
   background-size: cover;
-  padding: 150px;
-
 }
 
  #banner h1 {
@@ -74,12 +93,22 @@ color: purple;
   background-color: rgb(30,30,30);
   color: lightgrey;
  }
+
  .card{
   padding: 50px;
   font-weight: lighter;
  }
+
 #footer {
 background-color: rgb(#88878b);
 
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
